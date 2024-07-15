@@ -1,0 +1,83 @@
+// --------------------------------------------------------------------------------------------------------
+// Palette
+// --------------------------------------------------------------------------------------------------------
+
+// https://m2.material.io/design/color/the-color-system.html#tools-for-picking-colors
+
+$palette-text-dark: rgb(0 0 0 / 87%);
+$palette-text-light: #ffffff;
+
+$ve-primary-palette: (
+  50: #e7e9fc,
+  100: #c1c7f8,
+  200: #95a4f3,
+  300: #6380ef,
+  400: #3163ec,
+  500: #0046e6,
+  600: #003edb,
+  700: #0033cf,
+  800: #0028c4,
+  900: #0010ac,
+  contrast: (
+    50: $palette-text-dark,
+    100: $palette-text-dark,
+    200: $palette-text-dark,
+    300: $palette-text-dark,
+    400: $palette-text-light,
+    500: $palette-text-light,
+    600: $palette-text-light,
+    700: $palette-text-light,
+    800: $palette-text-light,
+    900: $palette-text-light,
+  ),
+);
+
+$ve-accent-palette: (
+  50: #e6f6ee,
+  100: #c2e9d5,
+  200: #9bdaba,
+  300: #70cd9f,
+  400: #4dc28b,
+  500: #1fb676,
+  600: #17a76b,
+  700: #0e945e,
+  800: #088352,
+  900: #02633c,
+  contrast: (
+    50: $palette-text-dark,
+    100: $palette-text-dark,
+    200: $palette-text-dark,
+    300: $palette-text-dark,
+    400: $palette-text-dark,
+    500: $palette-text-dark,
+    600: $palette-text-dark,
+    700: $palette-text-dark,
+    800: $palette-text-light,
+    900: $palette-text-light,
+  ),
+);
+
+$ve-warn-palette: (
+  50: #ffecef,
+  100: #ffcfd5,
+  200: #f49d9e,
+  300: #ec7678,
+  400: #f85656,
+  500: #fd453b,
+  600: #ef3c3b,
+  700: #dd3235,
+  800: #d02b2e,
+  900: #c11e21,
+  contrast: (
+    50: $palette-text-dark,
+    100: $palette-text-dark,
+    200: $palette-text-dark,
+    300: $palette-text-dark,
+    400: $palette-text-dark,
+    500: $palette-text-dark,
+    600: $palette-text-dark,
+    700: $palette-text-light,
+    800: $palette-text-light,
+    900: $palette-text-light,
+  ),
+);

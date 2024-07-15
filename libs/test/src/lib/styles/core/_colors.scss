@@ -1,0 +1,4 @@
+@use '@angular/material' as mat;
+@use '../angular_material/palette' as palette;
+
+$color-primary: mat.m2-get-color-from-palette(palette.$ve-primary-palette, 400);

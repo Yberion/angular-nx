@@ -1,0 +1,5 @@
+@use '../../../styles/core/colors' as colors;
+
+:host {
+  background-color: colors.$color-primary;
+}
